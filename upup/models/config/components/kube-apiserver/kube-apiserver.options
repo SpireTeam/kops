@@ -8,7 +8,6 @@ KubeAPIServer:
   AdmissionControl: NamespaceLifecycle,LimitRanger,ServiceAccount,ResourceQuota,PersistentVolumeLabel
   ServiceClusterIPRange: {{ .ServiceClusterIPRange }}
   ClientCAFile: /srv/kubernetes/ca.crt
-  BasicAuthFile: /srv/kubernetes/basic_auth.csv
   TLSCertFile: /srv/kubernetes/server.cert
   TLSPrivateKeyFile: /srv/kubernetes/server.key
   TokenAuthFile: /srv/kubernetes/known_tokens.csv

@@ -362,7 +362,6 @@ type KubeAPIServerConfig struct {
 	AdmissionControl      string `json:"admissionControl,omitempty" flag:"admission-control"`
 	ServiceClusterIPRange string `json:"serviceClusterIPRange,omitempty" flag:"service-cluster-ip-range"`
 	ClientCAFile          string `json:"clientCAFile,omitempty" flag:"client-ca-file"`
-	BasicAuthFile         string `json:"basicAuthFile,omitempty" flag:"basic-auth-file"`
 	TLSCertFile           string `json:"tlsCertFile,omitempty" flag:"tls-cert-file"`
 	TLSPrivateKeyFile     string `json:"tlsPrivateKeyFile,omitempty" flag:"tls-private-key-file"`
 	TokenAuthFile         string `json:"tokenAuthFile,omitempty" flag:"token-auth-file"`
